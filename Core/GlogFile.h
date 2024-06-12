@@ -1,6 +1,6 @@
 //
 // Created by issac on 2021/1/11.
-//
+// 增加functional
 
 #ifndef CORE_LOG_FILE_H_
 #define CORE_LOG_FILE_H_
@@ -14,6 +14,7 @@
 #include <string>
 #include <sys/mman.h>
 #include <unistd.h>
+#include <functional>
 
 namespace glog {
 
