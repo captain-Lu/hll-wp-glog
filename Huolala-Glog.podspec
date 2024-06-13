@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.framework    = "CoreFoundation"
   s.libraries    = "z", "c++"
-  s.dependency 'GlogCore', '~> 1.0.2'
+  s.dependency 'GlogCore', :git => "https://github.com/captain-Lu/hll-wp-glog.git"
 end
 
