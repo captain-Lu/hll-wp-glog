@@ -21,6 +21,5 @@ Pod::Spec.new do |s|
 
   s.framework    = "CoreFoundation"
   s.libraries    = "z", "c++"
-  s.dependency 'GlogCore'
 end
 
